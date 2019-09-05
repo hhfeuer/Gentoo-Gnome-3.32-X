@@ -50,12 +50,14 @@ package.keywords/accept_keywords:
 	=app-editors/gedit-3.32.2 ~amd64
 	=app-text/evince-3.32.0 ~amd64
 	=dev-util/meson-0.50.1 ~amd64
+	=gui-libs/libhandy-0.0.9 ~amd64
 
 needs package.use:
 
 	dev-libs/folks -tracker
 	>=x11-libs/gtksourceview-3.24.7 vala
 	>=net-libs/gnome-online-accounts-3.26.2 vala
+	>=gui-libs/libhandy-0.0.9 vala
 
 depending on kernel config might need package.use:
 

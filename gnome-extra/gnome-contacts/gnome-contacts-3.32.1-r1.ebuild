@@ -51,6 +51,7 @@ DEPEND="${RDEPEND}
 	>=dev-util/intltool-0.40
 	>=sys-devel/gettext-0.17
 	virtual/pkgconfig
+	>=gui-libs/libhandy-0.0.9[vala]
 "
 
 src_prepare() {
