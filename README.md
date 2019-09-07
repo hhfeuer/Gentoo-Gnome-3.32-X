@@ -48,7 +48,7 @@ Then run `layman -s Gnome-3-32-X`
 
 ---
 
-## Dependencies (rewuirements)
+## Dependencies (requirements)
 
 package.keywords/accept_keywords:
 
