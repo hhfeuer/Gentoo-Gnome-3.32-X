@@ -99,7 +99,7 @@ src_configure() {
 		$(meson_use input_devices_wacom libwacom)
 		-Dremote_desktop=false
 		$(meson_use wayland egl_device)
-		$(meson_use wayland wayland_eglstream)
+		-Dwayland_eglstream=false
 		$(meson_use udev)
 		-Dpango_ft2=true
 		-Dstartup_notification=true
