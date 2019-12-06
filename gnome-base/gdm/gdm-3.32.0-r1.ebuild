@@ -31,7 +31,7 @@ KEYWORDS="~alpha amd64 ~arm ~ia64 ~ppc ~ppc64 ~sh ~x86"
 COMMON_DEPEND="
 	app-text/iso-codes
 	>=dev-libs/glib-2.44:2
-	dev-libs/gudev
+	dev-libs/libgudev
 	>=x11-libs/gtk+-2.91.1:3
 	>=gnome-base/dconf-0.20
 	>=gnome-base/gnome-settings-daemon-3.1.4
